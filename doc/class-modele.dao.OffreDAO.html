@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class modele\dao\OffreDAO</title>
+
+	<link rel="stylesheet" href="resources/style.css?e99947befd7bf673c6b43ff75e9e0f170c88a60e">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+				<h3>Namespaces</h3>
+			<ul>
+				<li class="active">
+					<a href="namespace-modele.html">
+						modele<span></span>
+					</a>
+
+						<ul>
+				<li class="active">
+					<a href="namespace-modele.dao.html">
+						dao					</a>
+
+						</li>
+							</ul></li>
+				<li>
+					<a href="namespace-PHP.html">
+						PHP					</a>
+
+						</li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-modele.dao.AttributionDAO.html">AttributionDAO</a></li>
+				<li><a href="class-modele.dao.Bdd.html">Bdd</a></li>
+				<li><a href="class-modele.dao.EtablissementDAO.html">EtablissementDAO</a></li>
+				<li><a href="class-modele.dao.GroupeDAO.html">GroupeDAO</a></li>
+				<li class="active"><a href="class-modele.dao.OffreDAO.html">OffreDAO</a></li>
+				<li><a href="class-modele.dao.TypeChambreDAO.html">TypeChambreDAO</a></li>
+				<li><a href="class-modele.dao.UtilisateurDAO.html">UtilisateurDAO</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-modele.dao.html" title="Summary of modele\dao"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class OffreDAO</h1>
+
+
+	<div class="description">
+	<p>Description of OffreDAO
+Classe métier :  Offre</p>
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-modele.html">modele</a>\<a href="namespace-modele.dao.html">dao</a><br>
+		
+
+				<b>Author:</b>
+				prof<br>
+				<b>Version:</b>
+				2017<br>
+			<b>Located at</b> <a href="source-class-modele.dao.OffreDAO.html#10-164" title="Go to source code">OffreDAO.class.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="enregVersMetier" id="_enregVersMetier">
+
+		<td class="attributes"><code>
+			 protected static
+
+			modele\metier\Offre
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_enregVersMetier">#</a>
+		<code><a href="source-class-modele.dao.OffreDAO.html#18-34" title="Go to source code">enregVersMetier</a>( <span>array <var>$enreg</var></span> )</code>
+
+		<div class="description short">
+			<p>crée un objet métier à partir d'un enregistrement de la table OFFRE et des tables liées</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>crée un objet métier à partir d'un enregistrement de la table OFFRE et des tables liées</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$enreg</var></dt>
+					<dd>Description</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					modele\metier\Offre<br>objet métier obtenu
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="metierVersEnreg" id="_metierVersEnreg">
+
+		<td class="attributes"><code>
+			 protected static
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_metierVersEnreg">#</a>
+		<code><a href="source-class-modele.dao.OffreDAO.html#36-51" title="Go to source code">metierVersEnreg</a>( <span>modele\metier\Offre <var>$objetMetier</var></span>, <span><code><a href="class-PDOStatement.html">PDOStatement</a></code> <var>$stmt</var></span> )</code>
+
+		<div class="description short">
+			<p>Complète une requête préparée
+les paramètres de la requête associés aux valeurs des attributs d'un objet métier</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Complète une requête préparée
+les paramètres de la requête associés aux valeurs des attributs d'un objet métier</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$objetMetier</var></dt>
+					<dd></dd>
+					<dt><var>$stmt</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getAll" id="_getAll">
+
+		<td class="attributes"><code>
+			 public static
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getAll">#</a>
+		<code><a href="source-class-modele.dao.OffreDAO.html#53-68" title="Go to source code">getAll</a>( )</code>
+
+		<div class="description short">
+			<p>Retourne la liste de toutes les offres</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Retourne la liste de toutes les offres</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					array<br>tableau d'objets de type Offre
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getOneById" id="_getOneById">
+
+		<td class="attributes"><code>
+			 public static
+
+			modele\metier\Offre
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getOneById">#</a>
+		<code><a href="source-class-modele.dao.OffreDAO.html#70-90" title="Go to source code">getOneById</a>( <span>string <var>$idEtab</var></span>, <span>string <var>$idTypeChambre</var></span> )</code>
+
+		<div class="description short">
+			<p>Construire un objet d'après son identifiant, à partir des des enregistrements de la table Offre
+L'identifiant de la table Offre est composé : ($idEtab, $idTypeChambre)</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Construire un objet d'après son identifiant, à partir des des enregistrements de la table Offre
+L'identifiant de la table Offre est composé : ($idEtab, $idTypeChambre)</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$idEtab</var></dt>
+					<dd>identifiant de l'établissement émetteur de l'offre</dd>
+					<dt><var>$idTypeChambre</var></dt>
+					<dd>identifiant du type de chambre concerné par l'offre</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					modele\metier\Offre<br>: objet métier si trouvé dans la BDD, null sinon
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="delete" id="_delete">
+
+		<td class="attributes"><code>
+			 public static
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_delete">#</a>
+		<code><a href="source-class-modele.dao.OffreDAO.html#92-107" title="Go to source code">delete</a>( <span>string <var>$idEtab</var></span>, <span>string <var>$idTypeCh</var></span> )</code>
+
+		<div class="description short">
+			<p>Détruire un enregistrement de la table OFFRE d'après son identifiant</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Détruire un enregistrement de la table OFFRE d'après son identifiant</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$idEtab</var></dt>
+					<dd>identifiant de l'établissement émetteur de l'offre</dd>
+					<dt><var>$idTypeCh</var></dt>
+					<dd>identifiant du type de chambre concerné par l'offre</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean<br>=TRUE si l'enregistrement est détruit, =FALSE si l'opération échoue
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="insert" id="_insert">
+
+		<td class="attributes"><code>
+			 public static
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_insert">#</a>
+		<code><a href="source-class-modele.dao.OffreDAO.html#109-122" title="Go to source code">insert</a>( <span>modele\metier\Offre <var>$objet</var></span> )</code>
+
+		<div class="description short">
+			<p>Insérer un nouvel enregistrement dans la table à partir de l'état d'un objet métier</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Insérer un nouvel enregistrement dans la table à partir de l'état d'un objet métier</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$objet</var></dt>
+					<dd>métier à insérer</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean<br>=FALSE si l'opération échoue
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="insertValues" id="_insertValues">
+
+		<td class="attributes"><code>
+			 public static
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_insertValues">#</a>
+		<code><a href="source-class-modele.dao.OffreDAO.html#124-141" title="Go to source code">insertValues</a>( <span>string <var>$idEtab</var></span>, <span>string <var>$idTypeCh</var></span>, <span>integer <var>$nb</var></span> )</code>
+
+		<div class="description short">
+			<p>Insérer un nouvel enregistrement dans la table à partir des valeurs à insérer</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Insérer un nouvel enregistrement dans la table à partir des valeurs à insérer</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$idEtab</var></dt>
+					<dd>identifiant de l'établissement émetteur de l'offre</dd>
+					<dt><var>$idTypeCh</var></dt>
+					<dd>identifiant du type de chambre concerné par l'offre</dd>
+					<dt><var>$nb</var></dt>
+					<dd>nombre de lits pour cette offre</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean<br>=FALSE si l'opération échoue
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="update" id="_update">
+
+		<td class="attributes"><code>
+			 public static
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_update">#</a>
+		<code><a href="source-class-modele.dao.OffreDAO.html#143-161" title="Go to source code">update</a>( <span>string <var>$idEtab</var></span>, <span>string <var>$idTypeCh</var></span>, <span>integer <var>$nb</var></span> )</code>
+
+		<div class="description short">
+			<p>Mise à jour du nombre de chambres associé à une offre</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Mise à jour du nombre de chambres associé à une offre</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$idEtab</var></dt>
+					<dd>identifiant de l'établissement concerné par l'offre</dd>
+					<dt><var>$idTypeCh</var></dt>
+					<dd>identifiant du type de chambre concerné par l'offre</dd>
+					<dt><var>$nb</var></dt>
+					<dd>nouveau nombre de chambre</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean<br>=true si la mise à jour a été correcte
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>
